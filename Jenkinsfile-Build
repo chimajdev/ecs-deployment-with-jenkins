@@ -13,7 +13,7 @@ pipeline {
                 	branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, 
                 	extensions: [], 
                 	submoduleCfg: [], 
-                	userRemoteConfigs: [[url: 'https://github.com/Naresh240/spring-boot-hello.git']]])
+                	userRemoteConfigs: [[url: 'https://github.com/Naresh240/ecs-deployment-with-jenkins.git']]])
             }
         }
         stage ('Build Artifact') {
