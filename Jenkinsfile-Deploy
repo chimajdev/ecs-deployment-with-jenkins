@@ -1,10 +1,8 @@
 pipeline {
     agent any
 	environment {
-		registry = 'springboot-ecr:latest'
 		registryUrl='https://653308993752.dkr.ecr.us-west-1.amazonaws.com'
 		registryCredentials = 'ecr:us-west-1:ecr_credentials'
-		dockerImage = ''
 	}
     stages {
         stage ('SCM') {
